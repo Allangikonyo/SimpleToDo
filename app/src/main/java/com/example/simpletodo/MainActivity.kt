@@ -30,8 +30,9 @@ class MainActivity : AppCompatActivity() {
                 // 2. Notify the adapter that our data set has changed
                 adapter.notifyDataSetChanged()
 
-                saveItems()
+               saveItems()
             }
+
         }
         
         // 1. Let's detect when the user clicks on the add button 
